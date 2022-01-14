@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Selenium2" />
+        <module name="E2E for P2" />
         <module name="Testing2" />
       </profile>
     </annotationProcessing>

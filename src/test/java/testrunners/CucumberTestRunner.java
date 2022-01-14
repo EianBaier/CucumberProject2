@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "features/dashboard.feature",
+        features = "features",
         glue = "stepdefinitions",
-        dryRun = false, //dry run verifies that there is a step definition for each step
-        plugin = {"pretty", "html:target/cucumber.html"} //can out put results to an html file
+        dryRun = false,
+        plugin = {"pretty", "html:target/cucumber.html"}
 )
 public class CucumberTestRunner {
 }

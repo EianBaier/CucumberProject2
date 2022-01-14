@@ -15,4 +15,4 @@ Feature: Login Page
     Given A user is on the login page
     When A user inputs email address
     Then user will remain on login page
-    And 
+
